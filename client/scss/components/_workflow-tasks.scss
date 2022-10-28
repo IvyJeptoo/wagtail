@@ -1,26 +1,26 @@
 .workflow-tasks {
-  $task-width: 7.313rem;
-  $task-height: 3.5rem;
+  $task-width: 117px;
+  $task-height: 56px;
 
   list-style-type: none;
 
   &__task {
     display: inline-block;
     background-color: theme('colors.secondary.50');
-    border: 0.125rem solid theme('colors.secondary.100');
-    border-radius: 0.313rem;
+    border: 2px solid theme('colors.secondary.100');
+    border-radius: 5px;
     color: $color-teal;
     box-sizing: border-box;
     min-width: $task-width;
     height: $task-height;
-    margin: 0.438rem;
-    padding-inline-start: 0.563rem;
-    padding-inline-end: 0.563rem;
+    margin: 7px;
+    padding-inline-start: 9px;
+    padding-inline-end: 9px;
   }
 
   &__step {
     font-size: 0.625rem;
-    margin-top: 0.188rem;
+    margin-top: 0.1875rem;
   }
 
   &__name {
